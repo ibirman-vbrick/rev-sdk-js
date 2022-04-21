@@ -1,6 +1,8 @@
 import { TokenType } from '../VbrickSDK';
 import { IVbrickVideoEmbed, ICaptionSettings } from './IVbrickApi';
 import { PlayerStatus } from './PlayerStatus';
+import { PlayerEvent } from './PlayerEvent';
+import { PlayerMethod } from './PlayerMethod';
 import { VbrickEmbed } from './VbrickEmbed';
 import { VbrickEmbedConfig } from './VbrickEmbedConfig';
 
@@ -52,13 +54,13 @@ export class VbrickVideoEmbed extends VbrickEmbed implements IVbrickVideoEmbed {
 	  * Plays the video if it is paused.
 	  */
 	public play(): void {
-		this.eventBus.publish('playVideo');
+		this.eventBus.publish(PlayerMethod.PlayVideo);
 	}
 	/**
 	  * Pauses the video if it is playing.
 	  */
 	public pause(): void {
-		this.eventBus.publish('pauseVideo');
+		this.eventBus.publish(PlayerMethod.PauseVideo);
 	}
 
 	/**
@@ -66,7 +68,7 @@ export class VbrickVideoEmbed extends VbrickEmbed implements IVbrickVideoEmbed {
 	 * @param volume {number} 0-1
 	 */
 	public setVolume(volume: number): void {
-		this.eventBus.publish('setVolume', { volume });
+		this.eventBus.publish(PlayerMethod.SetVolume, { volume });
 	}
 
 	protected initializeToken(): Promise<any> {
@@ -84,9 +86,9 @@ export class VbrickVideoEmbed extends VbrickEmbed implements IVbrickVideoEmbed {
 	}
 
 	protected initializeEmbed(): void {
-		this.eventBus.on('playerStatusChanged', e => this._playerStatus = e.status),
-		this.eventBus.on('volumeChanged', e => this._volume = e.volume),
-		this.eventBus.on('captionsChanged', e => this._captions = e.captions)
+		this.eventBus.on(PlayerEvent.PlayerStatusChanged, e => this._playerStatus = e.status),
+		this.eventBus.on(PlayerEvent.VolumeChanged, e => this._volume = e.volume),
+		this.eventBus.on(PlayerEvent.CaptionsChanged, e => this._captions = e.captions)
 	}
 
 	public destroy(): void {

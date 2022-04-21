@@ -3,6 +3,7 @@ import { IVbrickWebcastEmbed, WebcastStatus } from './IVbrickApi';
 import { VbrickEmbed } from './VbrickEmbed';
 import { initializeWebcastToken } from './webcastAuth';
 import { VbrickEmbedConfig } from './VbrickEmbedConfig';
+import { WebcastEvent } from './WebcastEvent';
 
 
 export class VbrickWebcastEmbed extends VbrickEmbed implements IVbrickWebcastEmbed {
@@ -25,11 +26,11 @@ export class VbrickWebcastEmbed extends VbrickEmbed implements IVbrickWebcastEmb
 	}
 
 	protected initializeEmbed(): void {
-		['webcastStarted', 'broadcastStarted', 'broadcastStopped', 'webcastEnded'].forEach(event => {
+		Object.values(WebcastEvent).forEach(event => {
 			this.eventBus.on(event, data => this._webcastStatus = data.status);
 		});
 
-		this.eventBus.awaitEvent('webcastLoaded').then(data => {
+		this.eventBus.awaitEvent(WebcastEvent.WebcastLoaded).then(data => {
 			this._webcastStatus = data.status;
 		});
 	}
