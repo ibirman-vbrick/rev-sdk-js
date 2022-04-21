@@ -37,7 +37,7 @@ URL for Rev
 
 #### Defined in
 
-[VbrickSDK.ts:34](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/VbrickSDK.ts#L34)
+[VbrickSDK.ts:34](https://github.com/vbrick/rev-sdk-js/blob/8587b78/src/VbrickSDK.ts#L34)
 
 ___
 
@@ -53,7 +53,7 @@ An optional class to be set on embeds.
 
 #### Defined in
 
-[embed/VbrickEmbedConfig.ts:11](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbedConfig.ts#L11)
+[embed/VbrickEmbedConfig.ts:11](https://github.com/vbrick/rev-sdk-js/blob/8587b78/src/embed/VbrickEmbedConfig.ts#L11)
 
 ___
 
@@ -69,7 +69,7 @@ Optional height to be set on embeds. Default is "100%"
 
 #### Defined in
 
-[embed/VbrickEmbedConfig.ts:21](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbedConfig.ts#L21)
+[embed/VbrickEmbedConfig.ts:21](https://github.com/vbrick/rev-sdk-js/blob/8587b78/src/embed/VbrickEmbedConfig.ts#L21)
 
 ___
 
@@ -85,7 +85,7 @@ If true, sdk will log to console
 
 #### Defined in
 
-[VbrickSDK.ts:44](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/VbrickSDK.ts#L44)
+[VbrickSDK.ts:44](https://github.com/vbrick/rev-sdk-js/blob/8587b78/src/VbrickSDK.ts#L44)
 
 ___
 
@@ -101,7 +101,7 @@ Token for authentication
 
 #### Defined in
 
-[VbrickSDK.ts:39](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/VbrickSDK.ts#L39)
+[VbrickSDK.ts:39](https://github.com/vbrick/rev-sdk-js/blob/8587b78/src/VbrickSDK.ts#L39)
 
 ___
 
@@ -117,4 +117,4 @@ Optional width to be set on embeds. Default is "100%"
 
 #### Defined in
 
-[embed/VbrickEmbedConfig.ts:16](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbedConfig.ts#L16)
+[embed/VbrickEmbedConfig.ts:16](https://github.com/vbrick/rev-sdk-js/blob/8587b78/src/embed/VbrickEmbedConfig.ts#L16)

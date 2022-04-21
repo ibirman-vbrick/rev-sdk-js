@@ -27,4 +27,4 @@
 
 #### Defined in
 
-[embed/webcastAuth.ts:3](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/webcastAuth.ts#L3)
+[embed/webcastAuth.ts:3](https://github.com/vbrick/rev-sdk-js/blob/8587b78/src/embed/webcastAuth.ts#L3)

@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[embed/EventBus.ts:16](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/EventBus.ts#L16)
+[embed/EventBus.ts:16](https://github.com/vbrick/rev-sdk-js/blob/8587b78/src/embed/EventBus.ts#L16)
 
 ## Methods
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-[embed/EventBus.ts:36](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/EventBus.ts#L36)
+[embed/EventBus.ts:36](https://github.com/vbrick/rev-sdk-js/blob/8587b78/src/embed/EventBus.ts#L36)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[embed/EventBus.ts:114](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/EventBus.ts#L114)
+[embed/EventBus.ts:114](https://github.com/vbrick/rev-sdk-js/blob/8587b78/src/embed/EventBus.ts#L114)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-[embed/EventBus.ts:60](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/EventBus.ts#L60)
+[embed/EventBus.ts:60](https://github.com/vbrick/rev-sdk-js/blob/8587b78/src/embed/EventBus.ts#L60)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-[embed/EventBus.ts:29](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/EventBus.ts#L29)
+[embed/EventBus.ts:29](https://github.com/vbrick/rev-sdk-js/blob/8587b78/src/embed/EventBus.ts#L29)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[embed/EventBus.ts:68](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/EventBus.ts#L68)
+[embed/EventBus.ts:68](https://github.com/vbrick/rev-sdk-js/blob/8587b78/src/embed/EventBus.ts#L68)
 
 ___
 
@@ -160,4 +160,4 @@ ___
 
 #### Defined in
 
-[embed/EventBus.ts:77](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/EventBus.ts#L77)
+[embed/EventBus.ts:77](https://github.com/vbrick/rev-sdk-js/blob/8587b78/src/embed/EventBus.ts#L77)

@@ -44,4 +44,4 @@ An [IVbrickWebcastEmbed](../interfaces/embed_IVbrickApi.IVbrickWebcastEmbed.md) 
 
 #### Defined in
 
-[embed/EmbedWebcast.ts:28](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/EmbedWebcast.ts#L28)
+[embed/EmbedWebcast.ts:28](https://github.com/vbrick/rev-sdk-js/blob/8587b78/src/embed/EmbedWebcast.ts#L28)
