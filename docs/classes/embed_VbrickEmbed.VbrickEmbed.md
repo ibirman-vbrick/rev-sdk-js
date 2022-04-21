@@ -31,7 +31,6 @@ Base class for embedded content.
 - [eventBus](embed_VbrickEmbed.VbrickEmbed.md#eventbus)
 - [iframe](embed_VbrickEmbed.VbrickEmbed.md#iframe)
 - [iframeUrl](embed_VbrickEmbed.VbrickEmbed.md#iframeurl)
-- [init](embed_VbrickEmbed.VbrickEmbed.md#init)
 - [logger](embed_VbrickEmbed.VbrickEmbed.md#logger)
 - [unsubscribes](embed_VbrickEmbed.VbrickEmbed.md#unsubscribes)
 
@@ -43,7 +42,6 @@ Base class for embedded content.
 - [initializeToken](embed_VbrickEmbed.VbrickEmbed.md#initializetoken)
 - [off](embed_VbrickEmbed.VbrickEmbed.md#off)
 - [on](embed_VbrickEmbed.VbrickEmbed.md#on)
-- [render](embed_VbrickEmbed.VbrickEmbed.md#render)
 - [updateToken](embed_VbrickEmbed.VbrickEmbed.md#updatetoken)
 
 ## Constructors
@@ -62,7 +60,7 @@ Base class for embedded content.
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:18](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L18)
+[embed/VbrickEmbed.ts:18](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L18)
 
 ## Properties
 
@@ -84,7 +82,7 @@ ___
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:13](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L13)
+[embed/VbrickEmbed.ts:13](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L13)
 
 ___
 
@@ -94,7 +92,7 @@ ___
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:12](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L12)
+[embed/VbrickEmbed.ts:12](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L12)
 
 ___
 
@@ -104,23 +102,13 @@ ___
 
 ___
 
-### init
-
-• `Private` **init**: `Promise`<`any`\>
-
-#### Defined in
-
-[embed/VbrickEmbed.ts:14](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L14)
-
-___
-
 ### logger
 
 • `Protected` **logger**: [`ILogger`](../interfaces/Log.ILogger.md)
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:16](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L16)
+[embed/VbrickEmbed.ts:16](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L16)
 
 ___
 
@@ -130,7 +118,7 @@ ___
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:15](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L15)
+[embed/VbrickEmbed.ts:15](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L15)
 
 ## Methods
 
@@ -150,7 +138,7 @@ Removes the embedded content from the DOM.
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:85](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L85)
+[embed/VbrickEmbed.ts:85](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L85)
 
 ___
 
@@ -167,7 +155,7 @@ If there was a problem loading the content, or a problem with the token, the pro
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:30](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L30)
+[embed/VbrickEmbed.ts:30](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L30)
 
 ___
 
@@ -181,7 +169,7 @@ ___
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:56](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L56)
+[embed/VbrickEmbed.ts:56](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L56)
 
 ___
 
@@ -195,7 +183,7 @@ ___
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:55](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L55)
+[embed/VbrickEmbed.ts:55](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L55)
 
 ___
 
@@ -222,7 +210,7 @@ Removes an event listener
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:63](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L63)
+[embed/VbrickEmbed.ts:63](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L63)
 
 ___
 
@@ -249,21 +237,7 @@ Fired when iframe has loaded
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:58](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L58)
-
-___
-
-### render
-
-▸ `Private` **render**(): `HTMLIFrameElement`
-
-#### Returns
-
-`HTMLIFrameElement`
-
-#### Defined in
-
-[embed/VbrickEmbed.ts:67](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L67)
+[embed/VbrickEmbed.ts:58](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L58)
 
 ___
 
@@ -289,4 +263,4 @@ Allows updating the access token if the old one has expired.
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:92](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L92)
+[embed/VbrickEmbed.ts:92](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L92)

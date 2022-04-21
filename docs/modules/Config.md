@@ -32,4 +32,4 @@
 
 #### Defined in
 
-[Config.ts:5](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/Config.ts#L5)
+[Config.ts:5](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/Config.ts#L5)

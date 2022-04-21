@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[Log.ts:8](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/Log.ts#L8)
+[Log.ts:8](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/Log.ts#L8)

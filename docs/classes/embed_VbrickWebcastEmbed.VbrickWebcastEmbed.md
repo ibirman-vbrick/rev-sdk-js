@@ -22,7 +22,6 @@
 
 ### Properties
 
-- [\_webcastStatus](embed_VbrickWebcastEmbed.VbrickWebcastEmbed.md#_webcaststatus)
 - [config](embed_VbrickWebcastEmbed.VbrickWebcastEmbed.md#config)
 - [container](embed_VbrickWebcastEmbed.VbrickWebcastEmbed.md#container)
 - [eventBus](embed_VbrickWebcastEmbed.VbrickWebcastEmbed.md#eventbus)
@@ -65,19 +64,9 @@
 
 #### Defined in
 
-[embed/VbrickWebcastEmbed.ts:15](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickWebcastEmbed.ts#L15)
+[embed/VbrickWebcastEmbed.ts:15](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickWebcastEmbed.ts#L15)
 
 ## Properties
-
-### \_webcastStatus
-
-• `Private` **\_webcastStatus**: [`WebcastStatus`](../enums/embed_WebcastStatus.WebcastStatus.md)
-
-#### Defined in
-
-[embed/VbrickWebcastEmbed.ts:10](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickWebcastEmbed.ts#L10)
-
-___
 
 ### config
 
@@ -109,7 +98,7 @@ ___
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:13](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L13)
+[embed/VbrickEmbed.ts:13](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L13)
 
 ___
 
@@ -123,7 +112,7 @@ ___
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:12](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L12)
+[embed/VbrickEmbed.ts:12](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L12)
 
 ___
 
@@ -147,7 +136,7 @@ ___
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:16](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L16)
+[embed/VbrickEmbed.ts:16](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L16)
 
 ___
 
@@ -161,7 +150,7 @@ ___
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:15](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L15)
+[embed/VbrickEmbed.ts:15](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L15)
 
 ## Accessors
 
@@ -181,7 +170,7 @@ Indicates whether the webcast is started, or broadcasting.
 
 #### Defined in
 
-[embed/VbrickWebcastEmbed.ts:11](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickWebcastEmbed.ts#L11)
+[embed/VbrickWebcastEmbed.ts:11](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickWebcastEmbed.ts#L11)
 
 ## Methods
 
@@ -205,7 +194,7 @@ Removes the embedded content from the DOM.
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:85](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L85)
+[embed/VbrickEmbed.ts:85](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L85)
 
 ___
 
@@ -226,7 +215,7 @@ If there was a problem loading the content, or a problem with the token, the pro
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:30](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L30)
+[embed/VbrickEmbed.ts:30](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L30)
 
 ___
 
@@ -244,7 +233,7 @@ ___
 
 #### Defined in
 
-[embed/VbrickWebcastEmbed.ts:27](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickWebcastEmbed.ts#L27)
+[embed/VbrickWebcastEmbed.ts:27](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickWebcastEmbed.ts#L27)
 
 ___
 
@@ -262,7 +251,7 @@ ___
 
 #### Defined in
 
-[embed/VbrickWebcastEmbed.ts:23](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickWebcastEmbed.ts#L23)
+[embed/VbrickWebcastEmbed.ts:23](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickWebcastEmbed.ts#L23)
 
 ___
 
@@ -293,7 +282,7 @@ Removes an event listener
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:63](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L63)
+[embed/VbrickEmbed.ts:63](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L63)
 
 ___
 
@@ -324,7 +313,7 @@ Fired on initial load
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:58](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L58)
+[embed/VbrickEmbed.ts:58](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L58)
 
 ___
 
@@ -354,4 +343,4 @@ Allows updating the access token if the old one has expired.
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:92](https://github.com/vbrick/rev-sdk-js/blob/fe11467/src/embed/VbrickEmbed.ts#L92)
+[embed/VbrickEmbed.ts:92](https://github.com/vbrick/rev-sdk-js/blob/e20a0c7/src/embed/VbrickEmbed.ts#L92)
