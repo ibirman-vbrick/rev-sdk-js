@@ -31,6 +31,7 @@ export class VbrickVideoEmbed extends VbrickEmbed implements IVbrickVideoEmbed {
 	public get captions(): ICaptionSettings {
 		return this._captions;
 	}
+	
 	private _captions: ICaptionSettings;
 
 	/**

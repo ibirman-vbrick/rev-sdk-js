@@ -8,6 +8,7 @@ import { VbrickWebcastEmbedConfig } from './VbrickEmbedConfig';
 export class VbrickWebcastEmbed extends VbrickEmbed implements IVbrickWebcastEmbed {
 
 	private _webcastStatus: WebcastStatus;
+
 	public get webcastStatus() {
 		return this._webcastStatus;
 	};
