@@ -48,7 +48,7 @@ Base class for embedded content.
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:18](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickEmbed.ts#L18)
+[embed/VbrickEmbed.ts:18](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickEmbed.ts#L18)
 
 ## Methods
 
@@ -68,7 +68,7 @@ Removes the embedded content from the DOM.
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:85](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickEmbed.ts#L85)
+[embed/VbrickEmbed.ts:85](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickEmbed.ts#L85)
 
 ___
 
@@ -85,7 +85,7 @@ If there was a problem loading the content, or a problem with the token, the pro
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:30](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickEmbed.ts#L30)
+[embed/VbrickEmbed.ts:30](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickEmbed.ts#L30)
 
 ___
 
@@ -112,7 +112,7 @@ Removes an event listener
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:63](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickEmbed.ts#L63)
+[embed/VbrickEmbed.ts:63](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickEmbed.ts#L63)
 
 ___
 
@@ -139,7 +139,7 @@ Fired when iframe has loaded
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:58](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickEmbed.ts#L58)
+[embed/VbrickEmbed.ts:58](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickEmbed.ts#L58)
 
 ___
 
@@ -165,4 +165,4 @@ Allows updating the access token if the old one has expired.
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:92](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickEmbed.ts#L92)
+[embed/VbrickEmbed.ts:92](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickEmbed.ts#L92)

@@ -24,4 +24,4 @@ Options available when embedding a VOD/video or webcast
 
 #### Defined in
 
-[embed/VbrickEmbedConfig.ts:73](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickEmbedConfig.ts#L73)
+[embed/VbrickEmbedConfig.ts:73](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickEmbedConfig.ts#L73)

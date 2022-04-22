@@ -63,7 +63,7 @@ Internal class used to model an embedded video
 
 #### Defined in
 
-[embed/VbrickVideoEmbed.ts:44](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickVideoEmbed.ts#L44)
+[embed/VbrickVideoEmbed.ts:44](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickVideoEmbed.ts#L44)
 
 ## Properties
 
@@ -79,7 +79,7 @@ Contains metadata for the video
 
 #### Defined in
 
-[embed/VbrickVideoEmbed.ts:40](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickVideoEmbed.ts#L40)
+[embed/VbrickVideoEmbed.ts:40](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickVideoEmbed.ts#L40)
 
 ## Accessors
 
@@ -99,7 +99,7 @@ Whether captions are enabled, and selected language
 
 #### Defined in
 
-[embed/VbrickVideoEmbed.ts:31](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickVideoEmbed.ts#L31)
+[embed/VbrickVideoEmbed.ts:31](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickVideoEmbed.ts#L31)
 
 ___
 
@@ -119,7 +119,7 @@ video playing, buffering, etc
 
 #### Defined in
 
-[embed/VbrickVideoEmbed.ts:15](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickVideoEmbed.ts#L15)
+[embed/VbrickVideoEmbed.ts:15](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickVideoEmbed.ts#L15)
 
 ___
 
@@ -139,7 +139,7 @@ Player Volume. 0-1
 
 #### Defined in
 
-[embed/VbrickVideoEmbed.ts:23](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickVideoEmbed.ts#L23)
+[embed/VbrickVideoEmbed.ts:23](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickVideoEmbed.ts#L23)
 
 ## Methods
 
@@ -163,7 +163,7 @@ Removes the embedded content from the DOM.
 
 #### Defined in
 
-[embed/VbrickVideoEmbed.ts:93](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickVideoEmbed.ts#L93)
+[embed/VbrickVideoEmbed.ts:93](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickVideoEmbed.ts#L93)
 
 ___
 
@@ -184,7 +184,7 @@ If there was a problem loading the content, or a problem with the token, the pro
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:30](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickEmbed.ts#L30)
+[embed/VbrickEmbed.ts:30](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickEmbed.ts#L30)
 
 ___
 
@@ -215,7 +215,7 @@ Removes an event listener
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:63](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickEmbed.ts#L63)
+[embed/VbrickEmbed.ts:63](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickEmbed.ts#L63)
 
 ___
 
@@ -246,7 +246,7 @@ Fires when the video metadata is loaded
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:58](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickEmbed.ts#L58)
+[embed/VbrickEmbed.ts:58](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickEmbed.ts#L58)
 
 ___
 
@@ -266,7 +266,7 @@ Pauses the video if it is playing.
 
 #### Defined in
 
-[embed/VbrickVideoEmbed.ts:61](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickVideoEmbed.ts#L61)
+[embed/VbrickVideoEmbed.ts:61](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickVideoEmbed.ts#L61)
 
 ___
 
@@ -286,7 +286,7 @@ Plays the video if it is paused.
 
 #### Defined in
 
-[embed/VbrickVideoEmbed.ts:55](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickVideoEmbed.ts#L55)
+[embed/VbrickVideoEmbed.ts:55](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickVideoEmbed.ts#L55)
 
 ___
 
@@ -312,7 +312,7 @@ Sets player volume
 
 #### Defined in
 
-[embed/VbrickVideoEmbed.ts:69](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickVideoEmbed.ts#L69)
+[embed/VbrickVideoEmbed.ts:69](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickVideoEmbed.ts#L69)
 
 ___
 
@@ -342,4 +342,4 @@ Allows updating the access token if the old one has expired.
 
 #### Defined in
 
-[embed/VbrickEmbed.ts:92](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/VbrickEmbed.ts#L92)
+[embed/VbrickEmbed.ts:92](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/VbrickEmbed.ts#L92)

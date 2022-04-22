@@ -140,4 +140,4 @@ Re-exports [embedWebcast](embed_EmbedWebcast.md#embedwebcast)
 
 #### Defined in
 
-[index.ts:20](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/index.ts#L20)
+[index.ts:20](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/index.ts#L20)

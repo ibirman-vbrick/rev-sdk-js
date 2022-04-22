@@ -32,4 +32,4 @@ An [IVbrickVideoEmbed](../interfaces/embed_IVbrickApi.IVbrickVideoEmbed.md) obje
 
 #### Defined in
 
-[embed/EmbedVideo.ts:15](https://github.com/vbrick/rev-sdk-js/blob/e325589/src/embed/EmbedVideo.ts#L15)
+[embed/EmbedVideo.ts:15](https://github.com/vbrick/rev-sdk-js/blob/3d1ae49/src/embed/EmbedVideo.ts#L15)
